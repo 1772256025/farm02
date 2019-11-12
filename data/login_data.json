@@ -1,0 +1,49 @@
+{
+  "login_success":{
+    "mobile":"13800000002",
+    "password":"123456",
+    "success":true,
+    "code":10000,
+    "message":"操作成功"
+  },
+  "login_wrong_mobile":{
+    "mobile":"1380000000A",
+    "password":"123456",
+    "success":false,
+    "code":20001,
+    "message":"用户名或密码错误"
+  },
+  "login_wrong_password":{
+    "mobile":"13800000002",
+    "password":"654321",
+    "success":false,
+    "code":20001,
+    "message":"用户名或密码错误"
+  },
+  "login_both_None": {
+    "success": false,
+    "code": 99999,
+    "message": "抱歉，系统繁忙，请稍后重试"
+  },
+  "login_mobile_None":{
+    "mobile":"",
+    "password":"123456",
+    "success":false,
+    "code":20001,
+    "message":"用户名或密码错误"
+  },
+  "login_password_None":{
+    "mobile":"13800000002",
+    "password":"",
+    "success":false,
+    "code":20001,
+    "message":"用户名或密码错误"
+  },
+  "login_mobile_have_space":{
+    "mobile":" 13800000002 ",
+    "password":"123456",
+    "success":true,
+    "code":10000,
+    "message":"操作成功"
+  }
+}
